@@ -1,0 +1,17 @@
+@startuml
+
+Collaborator -down-> A
+Collaborator -down-> B
+Collaborator -down-> C
+Collaborator -down-> Bundled
+
+Bundled -down-> D
+Bundled -down-> E
+Bundled -down-> F
+Bundled -down-> G
+
+note top of Bundled
+Bundled meta dependency
+end note
+
+@enduml

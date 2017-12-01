@@ -1,0 +1,13 @@
+@startuml
+
+class Collaborator {
+    otherThing() 
+}
+
+note right of Collaborator::otherThing
+extract this!
+end note
+
+Collaborator -down-> SomeThing
+
+@enduml

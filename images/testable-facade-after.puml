@@ -1,0 +1,14 @@
+@startuml
+
+class OwnCode
+
+OwnCode --> TestableFacade 
+TestableFacade --> ThirdPartyApi
+
+note right of TestableFacade
+This was designed to be easy to test
+and use :-)
+<b>Yay!!!</b>
+end note
+
+@enduml

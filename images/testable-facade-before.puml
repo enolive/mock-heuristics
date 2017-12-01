@@ -1,0 +1,14 @@
+@startuml
+
+class OwnCode
+
+OwnCode --> ThirdPartyApi 
+
+note right of ThirdPartyApi
+*This API was unfortunately never designed
+to be testable :-(
+*This API brings too much functionality that we 
+do not need
+end note
+
+@enduml

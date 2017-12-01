@@ -1,0 +1,16 @@
+@startuml
+
+note top of GodObject 
+too many dependencies :-/
+end note
+class GodObject
+
+GodObject -down-> A
+GodObject -down-> B
+GodObject -down-> C
+GodObject -down-> D
+GodObject -down-> E
+GodObject -down-> F
+GodObject -down-> G
+
+@enduml

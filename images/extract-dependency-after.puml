@@ -1,0 +1,10 @@
+@startuml
+
+class Collaborator {
+}
+
+Collaborator -down-> SomeThing
+Collaborator -down-> OtherThing
+SomeThing .right.> OtherThing
+
+@enduml

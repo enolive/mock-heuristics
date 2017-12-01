@@ -1,0 +1,9 @@
+@startuml
+
+SignOn -down-> CreateAccount
+SignOn -down-> GenerateMail
+SignOn -down-> SendMail
+CreateAccount .right.> GenerateMail
+GenerateMail .right.> SendMail
+
+@enduml

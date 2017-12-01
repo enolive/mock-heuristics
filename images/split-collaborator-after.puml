@@ -1,0 +1,17 @@
+@startuml
+
+note "no more god object" as N1
+
+N1 .. New1
+N1 .. New2
+
+New1 -down-> A
+New1 -down-> B
+New1 -down-> C
+
+New2 -down-> D
+New2 -down-> E
+New2 -down-> F
+New2 -down-> G
+
+@enduml

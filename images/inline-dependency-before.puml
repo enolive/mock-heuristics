@@ -1,0 +1,9 @@
+@startuml
+
+Collaborator -down-> SomeThing
+
+note right of SomeThing
+over-complicated!
+end note
+
+@enduml
