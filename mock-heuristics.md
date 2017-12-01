@@ -43,7 +43,7 @@ If you said 3, you are right!
 
 ## Maximum # of dependencies should be between 2 and 5
 
-* 2~3 ideal
+* 2~3 great
 * up to 5 still okay
 
 What happens if you get more?
