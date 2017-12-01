@@ -1,4 +1,8 @@
-# My heuristics for working with mocks
+# Working with mocks
+
+my personal heuristics
+
+[github.com/enolive/mock-heuristics]()
 
 <--->
 
