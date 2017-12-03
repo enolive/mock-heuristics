@@ -1,8 +1,8 @@
 @startuml
 
-SignOn -down-> CreateAccount
-SignOn -down-> GenerateMail
-SignOn -down-> SendMail
+SignUp -down-> CreateAccount
+SignUp -down-> GenerateMail
+SignUp -down-> SendMail
 CreateAccount .right.> GenerateMail
 GenerateMail .right.> SendMail
 
