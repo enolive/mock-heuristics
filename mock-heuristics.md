@@ -139,7 +139,10 @@ Inline the dependency into the collaborator!
 
 #### Side Note
 
-> The opposite of KISS is KICKME (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
+> The opposite of KISS is KICKME 
+> (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
+
+<-->
 
 ### Exception
 
