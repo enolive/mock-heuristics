@@ -33,6 +33,7 @@ public void signUp(User user) {
 If you said 3, you are right!
 
 ![simple-collaborator](images/simple-collaborator.png)
+
 <-->
 
 *framework and technique agnostic*
@@ -50,12 +51,16 @@ What happens if you get more?
 
 <-->
 
-### Violation of <abbr title="Single Responsibility Principle">SRP</abbr>
+### Violation of SRP
 
-* The <abbr title="System under Test">SUT</abbr> is doing too much
+* The SUT is doing too much
 * God object
 
 Split it into smaller instances!
+
+Note: 
+SRP: Single Responsibility Principle
+SUT: System under Test
 
 <-->
 
@@ -67,11 +72,14 @@ Split it into smaller instances!
 
 <-->
 
-### Violation of <abbr title="Single Layer of Abstraction">SLA</abbr>
+### Violation of SLA
 
-* <abbr title="System under Test">SUT</abbr> using many dependencies to do one thing combined
+* SUT using many dependencies to do one thing combined
 
 Bundle it into a new dependency!
+
+Note: 
+SLA: Single layer of abstraction
 
 <-->
 
@@ -88,7 +96,7 @@ Why is there only one dependency?
 
 <-->
 
-### Violation of <abbr title="Single Responsibility Principle">SRP</abbr>
+### Violation of SRP
 
 The dependency is doing too much things
 
@@ -104,7 +112,7 @@ Split it into two dependencies!
 
 <-->
 
-### Violation of <abbr title="Single Layer of Abstraction">SLA</abbr>
+### Violation of SLA
 
 * Collaborator delegates one thing
 * Does other thing by himself
@@ -121,11 +129,18 @@ Extract the other thing as well!
 
 <-->
 
-### Violation of <abbr title="Keep it simple, stupid">KISS</abbr>
+### Violation of KISS
 
 Dependency is over-engineered
 
 Inline the dependency into the collaborator!
+
+Note:
+KISS: Keep it simple, stupid
+> The opposite of KISS is KICKME 
+> (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
+
+
 
 <-->
 
@@ -134,13 +149,6 @@ Inline the dependency into the collaborator!
 ![arrow](images/arrow.png)
 
 ![after](images/inline-dependency-after.png) 
-
-<-->
-
-#### Side Note
-
-> The opposite of KISS is KICKME 
-> (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
 
 <-->
 
@@ -158,9 +166,9 @@ Single dependency for a *Testable Facade*
 
 <--->
 
-## # dependencies and <abbr title="Lines of Code">LoC</abbr> inversely proportional
+## # dependencies and LoC inversely proportional
 
-* high number <abbr title="Lines of Code">LoC</abbr> indicates much business logic
+* high number LoC indicates much business logic
 * high number of dependencies indicates collaboration
 
 <-->
