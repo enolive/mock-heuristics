@@ -59,8 +59,9 @@ What happens if you get more?
 Split it into smaller instances!
 
 Note: 
-SRP: Single Responsibility Principle
-SUT: System under Test
+
+* SRP: Single Responsibility Principle
+* SUT: System under Test
 
 <-->
 
@@ -136,7 +137,9 @@ Dependency is over-engineered
 Inline the dependency into the collaborator!
 
 Note:
+
 KISS: Keep it simple, stupid
+
 > The opposite of KISS is KICKME 
 > (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
 
