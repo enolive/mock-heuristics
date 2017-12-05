@@ -50,9 +50,9 @@ What happens if you get more?
 
 <-->
 
-### Violation of SRP
+### Violation of <abbr title="Single Responsibility Principle">SRP</abbr>
 
-* The SUT is doing too much
+* The <abbr title="System under Test">SUT</abbr> is doing too much
 * God object
 
 Split it into smaller instances!
@@ -67,9 +67,9 @@ Split it into smaller instances!
 
 <-->
 
-### Violation of SLA
+### Violation of <abbr title="Single Layer of Abstraction">SLA</abbr>
 
-* SUT using many dependencies to do one thing combined
+* <abbr title="System under Test">SUT</abbr> using many dependencies to do one thing combined
 
 Bundle it into a new dependency!
 
@@ -88,7 +88,7 @@ Why is there only one dependency?
 
 <-->
 
-### Violation of SRP
+### Violation of <abbr title="Single Responsibility Principle">SRP</abbr>
 
 The dependency is doing too much things
 
@@ -104,7 +104,7 @@ Split it into two dependencies!
 
 <-->
 
-### Violation of SLA
+### Violation of <abbr title="Single Layer of Abstraction">SLA</abbr>
 
 * Collaborator delegates one thing
 * Does other thing by himself
@@ -121,7 +121,7 @@ Extract the other thing as well!
 
 <-->
 
-### Violation of KISS
+### Violation of <abbr title="Keep it simple, stupid">KISS</abbr>
 
 Dependency is over-engineered
 
@@ -137,6 +137,10 @@ Inline the dependency into the collaborator!
 
 <-->
 
+#### Side Note
+
+> The opposite of KISS is KICKME (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
+
 ### Exception
 
 Single dependency for a *Testable Facade*
@@ -151,9 +155,9 @@ Single dependency for a *Testable Facade*
 
 <--->
 
-## # dependencies and LoC inversely proportional
+## # dependencies and <abbr title="Lines of Code">LoC</abbr> inversely proportional
 
-* high number LoC indicates much business logic
+* high number <abbr title="Lines of Code">LoC</abbr> indicates much business logic
 * high number of dependencies indicates collaboration
 
 <-->
