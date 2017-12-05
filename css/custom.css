@@ -1,3 +1,4 @@
+/* remove those awkward image borders */
 .reveal section img {
     background: none;
     border: none;
