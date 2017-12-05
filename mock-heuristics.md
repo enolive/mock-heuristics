@@ -175,7 +175,9 @@ make them public if necessary for testing!
     
 <--->
 
-## Thanks!
+# Thanks!
 
-* Blog article by me: http://www.welcz.de/blog/2016/06/22/my-heuristics-for-working-with-mocks/
-* Introduction to Outside-In TDD (and more) by Sandro Mancuso: https://codurance.com/2015/05/12/does-tdd-lead-to-good-design/
+* [Fake-It Outside-In TDD by David Völkel](https://www.slideshare.net/davidvoelkel/fake-it-outsidein-tdd-workshop-clean-code-days)
+* [Introduction to Outside-In TDD (and more) by Sandro Mancuso](https://codurance.com/2015/05/12/does-tdd-lead-to-good-design/)
+* [Blog article by me about Mock Heuristics](http://www.welcz.de/blog/2016/06/22/my-heuristics-for-working-with-mocks)
+
