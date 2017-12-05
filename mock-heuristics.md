@@ -138,10 +138,9 @@ Inline the dependency into the collaborator!
 
 Note:
 
-KISS: Keep it simple, stupid
-
-> The opposite of KISS is KICKME 
-> (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
+* KISS: Keep it simple, stupid
+* The opposite of KISS is KICKME 
+  (**K**eep **i**t **c**omplicated, **k**eep **m**e **e**mployed).
 
 
 
