@@ -88,6 +88,22 @@ Why is there only one dependency?
 
 <-->
 
+### Violation of SRP
+
+The dependency is doing too much things
+
+Split it into two dependencies!
+
+<-->
+
+![before](images/split-single-dependency-before.png)
+
+![arrow](images/arrow.png)
+
+![after](images/split-single-dependency-after.png)
+
+<-->
+
 ### Violation of SLA
 
 * Collaborator delegates one thing
