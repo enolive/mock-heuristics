@@ -84,6 +84,8 @@ Bundle it into a new dependency!
 * Dependencies are for collaboration
 * How should collaboration work when there is only one dependency?
 
+Why is there only one dependency?
+
 <-->
 
 ### Violation of SLA
@@ -154,11 +156,22 @@ Single dependency for a *Testable Facade*
 
 ## Ideal # of dependencies is zero
 
-* testing with dependencies is hard
-* extract the code to a separate entity and 
-  test it directly, e.g.
-    * method
-    * class
+testing with dependencies is hard
+
+extract the code to a separate entity and 
+test it directly
+
+<-->
+
+* method
+* class
+
+make them public if necessary for testing!
+
+<-->
+
+> Tests trump encapsulation
+> -- Uncle Bob
     
 <--->
 
