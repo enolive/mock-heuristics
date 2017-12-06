@@ -18,7 +18,7 @@ my personal heuristics
 
 ## Motivation
 
-How many dependencies are in this code?
+How many behavioural dependencies are in this code?
 
 ```java
 public void signUp(User user) {
