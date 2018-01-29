@@ -1,6 +1,6 @@
 # Working with mocks
 
-my personal heuristics
+my personal heuristics for testable architectures
 
 [github.com/enolive/mock-heuristics](https://github.com/enolive/mock-heuristics)
 
